@@ -145,7 +145,7 @@ body{
          flex-direction: column;
          justify-content: center;
          align-items: center;
-         margin-top: 80px;
+         margin-top: 0px;
      }
      .leftcol{
          text-align: center;
@@ -164,6 +164,13 @@ body{
     .applebtn:hover{
         background-color: blue;
         cursor: pointer;
+    }
+   .sec1img{
+        margin-top: 100px;
+    }
+   .appinfo{
+        font-size: 36px;
+        margin-left: 50px;
     }
 }
 
@@ -226,6 +233,10 @@ body{
     .infoaboutus{
         order: 1;
         text-align: center;
+    }
+  .abtusinfo{
+        width: 375px;
+        margin-left: 160px;
     }
 }
 
@@ -296,6 +307,10 @@ body{
         display: flex;
         flex-direction: column;
         gap: 0px;
+    }
+  .ftrinfo{
+        line-height: 20px;
+        text-align: center;
     }
 }
 
@@ -463,6 +478,10 @@ body{
         align-items: center;
         gap: 30px;
     }
+  .dwnld{
+        margin-top: 30px;
+        gap: 20px;
+    }
 }
 
    
@@ -587,6 +606,12 @@ body{
     }
     .text{
         width: 300px;
+    }
+  .submit{
+        margin-left: 150px;
+    }
+    .socialres{
+        margin-left: 90px;
     }
     
 }
